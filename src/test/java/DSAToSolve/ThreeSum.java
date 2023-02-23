@@ -4,6 +4,15 @@ import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
+
+
+/*
+1.Declare Set ,List and  sort input array
+2.Iterate through input nums and check condition nms[i]+nums[j]+nums[k]==0
+3.if equals add in set 
+4.Retrun set as List and add in list 
+/*
+
 public class ThreeSum {
 
     @Test
