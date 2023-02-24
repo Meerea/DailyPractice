@@ -12,7 +12,7 @@ import java.util.*;
 3.if equals add in set 
 4.Retrun set as List and add in list 
 /*
-
+/*
 public class ThreeSum {
 
     @Test
@@ -53,4 +53,4 @@ public class ThreeSum {
 
     }
 }
-
+*/
