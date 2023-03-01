@@ -17,25 +17,12 @@ API:
 
 Edge/Negative:
 1.user blocked as no no of times invalid credentials, then will not able to login until specified time limit
-2.After time, user unable to login using valid credentials
+2.After specified time, user unable to login using valid credentials
 3.updated password not gets updated / login failed
-4.Mail should trigger invalid login to backup mailid
-
+4.Trying to reset password using expired reset link/ text
 
 Performance:
-1.N no user load hitting the login and logging gets success
-
-
-
-
-
-
-
-
-
-
-
-
+1.Response time of login when logging with valid credentials.
 
 
 public class GmailLogin {
